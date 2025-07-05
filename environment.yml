@@ -1,0 +1,15 @@
+name: risk-profiler
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+  - matplotlib
+  - numpy
+  - pandas
+  - plotly
+  - scikit-learn
+  - shap
+  - streamlit
+prefix: /opt/anaconda3/envs/risk-profiler
