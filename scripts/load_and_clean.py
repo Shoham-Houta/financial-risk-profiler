@@ -33,3 +33,8 @@ def load_and_preper_data(file_path:Path = Path("data/synthetic_profiles.csv")) -
     assert df['risk_tolerance'].isin(valid_risk).all()
 
     return df
+
+
+df = pd.read_csv("data/financial_risk_assessment.csv")
+
+print(df[df.isnull().any(axis=1)])
